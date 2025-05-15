@@ -13,5 +13,5 @@ export default function MortgageButton({handleCalculate, handleCalculateMethod, 
             handleCalculate()
             handleCalculateMethod()
             activateErrors(true)
-        }} className={`${textPreset3} rgbaButton max-w-[305px] bg-[#D8DB2F] mt-[16px]! flex gap-[12px] p-[16px_40px_16px_40px]! cursor-pointer rounded-[100px]`}><img src='images/icon-calculator.svg'></img> Calculate Repayments</button>)
+        }} className={`${textPreset3} rgbaButton max-w-[314px] bg-[#D8DB2F] mt-[16px]! flex gap-[12px] p-[16px_40px_16px_40px]! cursor-pointer rounded-[100px]`}><img src='images/icon-calculator.svg'></img> Calculate Repayments</button>)
 }
