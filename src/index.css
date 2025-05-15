@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap'); */
+
+@layer base {}
+
+@layer components {}
+
+@layer utilities {
+
+    .no-spinner::-webkit-outer-spin-button,
+    .no-spinner::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}
+
+/* @theme{
+    --font-display: "Plus Jakarta sans";
+} */
+
+.spanHover1:hover .styledSpan1{
+    border-top: 1px solid #133041;
+    border-left: 1px solid #133041;
+    border-bottom: 1px solid #133041;
+}
+
+
+.spanHover2:hover .styledSpan2{
+    border-top: 1px solid #133041;
+    border-right: 1px solid #133041;
+    border-bottom: 1px solid #133041;
+}
+
+.spanHover3:hover .styledSpan3{
+    border-top: 1px solid #133041;
+    border-right: 1px solid #133041;
+    border-bottom: 1px solid #133041;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+html {
+    font-size: 10px !important;
+}
+
+body {
+    background-color: #E4F4FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.rgbaButton:hover{
+    background-color: rgba(216, 219, 47, 0.5)
+;
+}
