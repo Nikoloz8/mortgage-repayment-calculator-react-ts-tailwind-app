@@ -19,6 +19,6 @@ export default function MortgageCalculateDisplay({ textPreset4, repayment, P, r,
             <h1 className='text-[5.6rem] leading-[125%] font-[700] text-[#D8DB2F]'>{repayment ? M(P, r, n).toFixed(2) : !repayment ? I(P, r).toFixed(2) : null}</h1>
             <span className='w-[100%] h-[1px] m-[24px_0_24px_0]! block' style={{ backgroundColor: "rgba(154, 190, 213, 0.25)" }}></span>
             <p className={`${textPreset4} text-[#9ABED5]`}>Total you'll repay over the term</p>
-            <h2 className={`${textPreset2} text-[#ffffff]`}>{repayment ? MIT(M(P, r, n), n).toFixed(2) : !repayment ? MIT(I(P, r), n).toFixed(2) : null}</h2>
+            <h2 className={`${textPreset2} text-[#ffffff]`}>£{repayment ? MIT(M(P, r, n), n).toFixed(2) : !repayment ? MIT(I(P, r), n).toFixed(2) : null}</h2>
         </div>)
 }
