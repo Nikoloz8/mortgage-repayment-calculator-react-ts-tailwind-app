@@ -95,7 +95,8 @@ function App() {
           <Header
             textPreset2={textPreset2}
             textPreset4={textPreset4}
-            clearInput={clearInput} />
+            clearInput={clearInput}
+            setCalculateDisplay={setCalculateDisplay} />
 
           <MortgageAmount
             textPreset4={textPreset4}
